@@ -1,0 +1,5 @@
+Book ID,Book Name,Author,Genre,Rack,Row,Keywords,Status
+B001,Digital Logic Design,Morris Mano,ECE,A,1,"logic, gates, binary, circuits",Available
+B002,Python Programming,Reema Thareja,CSE,B,2,"python, code, loops, functions",Issued
+B003,Signals and Systems,Oppenheim,ECE,C,1,"signals, systems, transforms",Available
+B004,Operating Systems,Galvin,CSE,D,2,"OS, scheduling, memory, kernel",Available
