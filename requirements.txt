@@ -1,0 +1,6 @@
+gradio
+gensim
+nltk
+numpy
+pandas
+scikit-learn
