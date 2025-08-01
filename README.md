@@ -64,7 +64,7 @@ def recommend_books(query, n=3, threshold=0.1):
     for idx in top_indices:
         if similarities[idx] >= threshold:
             book = df.iloc[idx]
-            results.append(f"📚 {book['Book Name']} (Rack {book['Rack']}, Row {book['Row']})")
+            results.append(f"{book['Book Name']} (Rack {book['Rack']}, Row {book['Row']})")
     if results:
         return "\n".join(results)
     else:
@@ -78,3 +78,6 @@ gr.Interface(
     title="Smart Library Book Finder - PileUnbluff",
     description="Enter keywords to find books hidden in a pile!"
 ).launch()
+##  Demo Interface
+
+![Gradio Demo](assets/demo.png)
